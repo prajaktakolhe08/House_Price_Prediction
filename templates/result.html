@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Prediction Result{% endblock %}
+
+{% block content %}
+<div style="height: 515px;">
+    <div class="card shadow-lg p-4 rounded-4 result-card text-center">
+        <h2 class="mb-3">🏡 Estimated House Price</h2>
+
+        {% if price %}
+            <h3 class="text-success fw-bold">$ {{price}}</h3>
+            <p class="text-muted">This is an estimated price based on the input details.</p>
+        {% else %}
+            <h3 class="text-danger">⚠️ Error: {{error}}</h3>
+        {% endif %}
+
+        <div class="text-center mt-4">
+            <a href="/"><button class="btn btn-gradient">🔄 Try Again</button></a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

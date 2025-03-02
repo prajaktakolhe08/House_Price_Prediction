@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #7f7f7f, #ffffff);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.custom-card, .result-card {
+    background: white;
+    border-radius: 12px;
+}
+
+.btn-gradient {
+    background: rgb(42, 42, 42);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-gradient:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 0.1px solid black;
+    font-size: 18px;
+    transform: scale(1.05);
+}
