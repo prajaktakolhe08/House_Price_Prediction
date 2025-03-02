@@ -1,7 +1,7 @@
 # 🏡 House Price Prediction Web Application
 
 ## Overview
-This project is a House Price Prediction Web Application built using Flask and a pre-trained machine learning model. The application takes various house features as input and predicts the estimated price of the house using a Random Forest model.
+This project is a House Price Prediction Web Application built with Flask and a pre-trained machine learning model. Users can input various house features such as area, overall quality, number of bathrooms, and other attributes, and the application predicts the estimated house price using a Random Forest model. The interactive web interface provides an intuitive way to explore real estate pricing trends based on input data.
 
 ## Features
 - User-friendly web interface for inputting house details
@@ -11,10 +11,17 @@ This project is a House Price Prediction Web Application built using Flask and a
 
 ## Technologies Used
 - **Flask**: Web framework for handling routes and rendering templates
+- **Jupyter Notebook**: Used for exploratory data analysis and model training
 - **Scikit-learn**: Used for training and deploying the Random Forest model
 - **Joblib**: Model serialization for loading the trained model
-- **NumPy**: Data processing and transformation
+- **Pandas**: Data manipulation and preprocessing
 - **HTML/CSS**: Frontend for user input and result display
+
+## Demo
+
+- House Price Prediction Demo
+&nbsp
+<table> <tr> <td width="65%"> <video src="https://github.com/user-attachments/assets/ca219045-c9ce-4970-bb8c-ef573d739489" controls width="100%"></video> </td> <td width="35%"> The demo showcases: - 🏡 User Input Form: Users enter house features (e.g., area, bedrooms, condition, etc.), ⚡ Prediction Process: The model processes the input and predicts the house price, 📊 Result Display: The estimated house price is shown on the result screen, 🔄 Real-time Interaction: Users can modify inputs and get updated predictions instantly.</td> </tr> </table>
 
 ## Project Structure
 ```
@@ -23,7 +30,7 @@ project-directory/
 │   ├── house_price_rf_model.pkl  # Trained model file
 |-- dataset/ 
 |-- |── train.csv # Dataset used for training
-    |── test.csv
+|   |── test.csv
 |-- static/
 │   ├── style.css 
 │-- templates/
@@ -37,7 +44,7 @@ project-directory/
 ## Setup and Installation
 1. **Clone the Repository**
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/prajaktakolhe08House_Price_Prediction
    cd project-directory
    ```
 
@@ -63,3 +70,9 @@ project-directory/
 2. Enter the required house features in the form.
 3. Click the "Predict Price" button.
 4. The predicted house price will be displayed on the results page.
+
+## Contact
+
+If you have any questions or would like to contribute, feel free to email me or connect with me on [Linkedin](https://linkedin.com/in/prajakta-kolhe08).
+
+⭐ **If you like this project, don't forget to give it a star!** ⭐
