@@ -20,7 +20,7 @@ def home():
                 float(request.form["TotalBsmtSF"]),
                 float(request.form["GrLivArea"]),
                 float(request.form["FullBath"]),
-                float(request.form["HalfBath"]),
+                float(request.form["TotRmsAbvGrd"]),
                 float(request.form["GarageCars"]),
                 float(request.form["GarageArea"]),
             ]
