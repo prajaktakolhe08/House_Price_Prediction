@@ -20,46 +20,38 @@ This project is a House Price Prediction Web Application built with Flask and a 
 ## Demo
 
 - House Price Prediction Demo
-&nbsp
-<table> <tr> <td width="65%"> <video src="https://github.com/user-attachments/assets/ca219045-c9ce-4970-bb8c-ef573d739489" controls width="100%"></video> </td> <td width="35%"> The demo showcases: - 🏡 User Input Form: Users enter house features (e.g., area, bedrooms, condition, etc.), ⚡ Prediction Process: The model processes the input and predicts the house price, 📊 Result Display: The estimated house price is shown on the result screen, 🔄 Real-time Interaction: Users can modify inputs and get updated predictions instantly.</td> </tr> </table>
 
-## Project Structure
-```
-project-directory/
-│-- model/
-│   ├── house_price_rf_model.pkl  # Trained model file
-|-- dataset/ 
-|-- |── train.csv # Dataset used for training
-|   |── test.csv
-|-- static/
-│   ├── style.css 
-│-- templates/
-│   ├── index.html  # Form for user input
-│   ├── result.html  # Displays predicted price
-│-- app.py  # Flask application file
-│-- requirements.txt  # List of dependencies
-│-- README.md  # Documentation
-```
+<table> <tr> <td width="65%"> <video src="https://github.com/user-attachments/assets/cd7ff379-0416-43f3-a2bf-bc1c22baec25" controls width="100%"></video> </td> <td width="35%"> The demo showcases: - 🏡 User Input Form: Users enter house features (e.g., area, bedrooms, condition, etc.), ⚡ Prediction Process: The model processes the input and predicts the house price, 📊 Result Display: The estimated house price is shown on the result screen, 🔄 Real-time Interaction: Users can modify inputs and get updated predictions instantly.</td> </tr> </table>
 
 ## Setup and Installation
+
+Follow these steps to set up and run the project on your local machine
 1. **Clone the Repository**
+   Download the project by running:
    ```sh
-   git clone https://github.com/prajaktakolhe08House_Price_Prediction
-   cd project-directory
+   git clone https://github.com/prajaktakolhe08/House_Price_Prediction
+   cd House_Price_Prediction
    ```
 
-2. **Create a Virtual Environment (Optional but Recommended)**
+3. **Create a Virtual Environment (Recommended)**
+   
+   It’s best to use a virtual environment to manage dependencies. Run the following command:
    ```sh
    python -m venv venv
    venv\Scripts\activate  # On Windows
+   source venv/bin/activate # For macOS/Linux
    ```
 
-3. **Install Dependencies**
+5. **Install Dependencies**
+   
+   Ensure all required packages are installed:
    ```sh
    pip install -r requirements.txt
    ```
 
-4. **Run the Flask Application**
+7. **Run the Flask Application**
+   
+   Start the web application:
    ```sh
    python app.py
    ```
@@ -70,6 +62,14 @@ project-directory/
 2. Enter the required house features in the form.
 3. Click the "Predict Price" button.
 4. The predicted house price will be displayed on the results page.
+
+## Screenshots
+
+### 🏠 Form Submission
+<img alt="Homepage" src="https://github.com/user-attachments/assets/e321b912-f73d-42dc-81f3-3b618722974c" width="500">
+
+### 📊 Predicted Result
+<img alt="Predicted_result" src="https://github.com/user-attachments/assets/14a5ff8a-95df-475f-8aec-e6539c54f14a" width="500">
 
 ## Contact
 
