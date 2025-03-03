@@ -27,6 +27,7 @@ This project is a House Price Prediction Web Application built with Flask and a 
 
 Follow these steps to set up and run the project on your local machine
 1. **Clone the Repository**
+
    Download the project by running:
    ```sh
    git clone https://github.com/prajaktakolhe08/House_Price_Prediction
